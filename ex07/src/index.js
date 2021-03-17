@@ -9,7 +9,7 @@ function myFunction(propName) {
     delete lion[propName];
     return lion;
 }
-
+myFunction("roar");
 console.log(myFunction("roar"));
 module.exports = myFunction;
 
