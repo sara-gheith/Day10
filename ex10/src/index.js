@@ -10,6 +10,18 @@ function myFunction() {
                 3: "LP"
             },
             gold: true
-        }, 
-    }
+        },
+        002: {
+            artist: "Pink Floyd",
+            title: "Another Brick in the Wall",
+            release_year: 1979,
+            formats: {
+                1: "CD",
+                2: "LP",
+                3: "8T"
+            }
+        } 
+    };
 }
+myFunction()[2];
+module.exports = myFunction;
