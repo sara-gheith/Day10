@@ -8,6 +8,6 @@ function myFunction(name) {
     school.name = name;
     return school;
 }
-
+myFunction("Paragon");
 console.log(myFunction("Paragon"));
 module.exports = { school, myFunction };
