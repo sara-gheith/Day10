@@ -1,10 +1,10 @@
 // Only change code below this line
 
 var myPet = {
-  species: "Human",
-  name: "Sara",
-  legs: 2,
-  friends: ["Amina", "Dzeni"]
+  species: "Pitbull",
+  name: "Luna",
+  legs: 4,
+  friends: ["Varg", "Gerda"]
 };
 
 function myFunction(myObj) {
