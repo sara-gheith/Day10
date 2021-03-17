@@ -15,6 +15,7 @@ function myFunction() {
             artist: "Pink Floyd",
             title: "Another Brick in the Wall",
             release_year: 1979,
+            id: 7,
             formats: {
                 1: "CD",
                 2: "LP",
@@ -22,6 +23,7 @@ function myFunction() {
             }
         } 
     };
+    return myMusic;
 }
 myFunction()[2];
 module.exports = myFunction;
